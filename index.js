@@ -21,5 +21,5 @@ BoardMember.prototype.releasePressStatement = function() {
 }
 
 BoardMember.prototype.veto = function() {
-  return "No, I must disagree";
+  return `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`
 }
